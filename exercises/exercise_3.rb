@@ -8,6 +8,6 @@ puts "----------"
 # Your code goes here ...
 @store3 = Store.find_by(id: 3)
 @store3.destroy
-
+@store3.save
 puts "stores3-------#{@store3.name}"
 puts "stores count-------#{Store.count}"
